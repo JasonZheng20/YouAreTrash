@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
+using System.Collections.Generic;
 
+[RequireComponent (typeof (EdgeCollider2D))]
 public class BezierCurve : MonoBehaviour {
 
 	public Vector3[] points;
